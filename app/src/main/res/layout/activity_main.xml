@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f88008"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/goQuestion"
+        android:layout_marginTop="30dp"
+        android:text="질문지로 추천"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/border"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/goRandom"
+        android:layout_marginTop="30dp"
+        android:text="랜덤 추천"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/border"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/goGwangjang"
+        android:layout_marginTop="30dp"
+        android:text="맛집의 광장"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/border_w"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/goDiary"
+        android:layout_marginTop="30dp"
+        android:text="다이어리"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/border_w"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/goMyMap"
+        android:layout_marginTop="30dp"
+        android:text="나의 맛집 지도"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/border_w"
+        android:layout_gravity="right"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_image"/>
+
+
+
+</LinearLayout>
