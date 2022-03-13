@@ -7,11 +7,12 @@
     android:gravity="center">
 
     <LinearLayout
-        android:layout_width="380dp"
-        android:layout_height="700dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#ffffff"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:layout_margin="15dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,15 +28,17 @@
             android:layout_weight="1">
 
             <CheckBox
+                android:id="@+id/meal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="식사"
                 android:textSize="20dp"/>
 
             <CheckBox
+                android:id="@+id/snack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="주전부리"
+                android:text="안주"
                 android:textSize="20dp"/>
 
         </LinearLayout>
@@ -55,36 +58,42 @@
             android:layout_weight="1">
 
             <CheckBox
+                android:id="@+id/rice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="밥"
                 android:textSize="20dp"/>
 
             <CheckBox
+                android:id="@+id/noodle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="면"
                 android:textSize="20dp"/>
 
             <CheckBox
+                android:id="@+id/bread"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="빵"
                 android:textSize="20dp"/>
 
             <CheckBox
+                android:id="@+id/meat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="고기"
                 android:textSize="20dp"/>
 
             <CheckBox
+                android:id="@+id/seafood"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="해산물"
                 android:textSize="20dp"/>
 
             <CheckBox
+                android:id="@+id/riceCake"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="떡"
@@ -107,24 +116,28 @@
             android:layout_weight="1">
 
             <CheckBox
+                android:id="@+id/koreanFood"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="한식"
                 android:textSize="20dp"/>
 
             <CheckBox
+                android:id="@+id/ChineseFood"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="중식"
                 android:textSize="20dp"/>
 
             <CheckBox
+                android:id="@+id/AmericanFood"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="양식"
                 android:textSize="20dp"/>
 
             <CheckBox
+                android:id="@+id/JapaneseFood"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="일식"
@@ -147,12 +160,14 @@
             android:layout_weight="1">
 
             <CheckBox
+                android:id="@+id/veryHot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="매우 매움"
                 android:textSize="20dp"/>
 
             <CheckBox
+                android:id="@+id/hot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="매움"
@@ -165,12 +180,14 @@
             android:layout_weight="1">
 
             <CheckBox
+                android:id="@+id/littleHot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="조금 매움"
                 android:textSize="20dp"/>
 
             <CheckBox
+                android:id="@+id/notHot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="안 매움"
@@ -193,12 +210,14 @@
             android:layout_weight="1">
 
             <CheckBox
+                android:id="@+id/soup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="국물류"
                 android:textSize="20dp"/>
 
             <CheckBox
+                android:id="@+id/notSoup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="비국물류"
@@ -214,6 +233,7 @@
             android:layout_weight="1">
 
             <Button
+                android:id="@+id/btnCancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="취소"
@@ -222,6 +242,7 @@
                 android:layout_margin="10dp"/>
 
             <Button
+                android:id="@+id/btnOk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="확인"
