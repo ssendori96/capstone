@@ -21,12 +21,6 @@
             android:layout_marginTop="20dp"
             android:layout_weight="0.8">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="<"
-                android:textSize="25dp"
-                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/year"
@@ -66,12 +60,6 @@
                 android:textSize="25dp"
                 android:textColor="@color/black"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=">"
-                android:textSize="25dp"
-                android:textColor="@color/black"/>
 
         </LinearLayout>
 
@@ -86,8 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginLeft="20dp"
-                android:layout_marginright="20dp">
+                android:layout_marginLeft="20dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -110,8 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginLeft="20dp"
-                android:layout_marginright="20dp">
+                android:layout_marginLeft="20dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -153,7 +139,7 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/btnCancel"
+                android:id="@+id/btnDiaryCancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="취소"
@@ -163,7 +149,7 @@
                 android:layout_margin="10dp"/>
 
             <Button
-                android:id="@+id/btnOk"
+                android:id="@+id/btnDiarySave"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="확인"

@@ -19,6 +19,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".QuestionActivity" android:label="Question 액티비티"/>
+        <activity android:name=".RandomActivity" android:label="Random 액티비티"/>
+        <activity android:name=".DiaryActivity" android:label="Diary 액티비티"/>
+        <activity android:name=".LoginActivity" android:label="Login 액티비티"/>
+        <activity android:name=".JoinActivity" android:label="Join 액티비티"/>
+
     </application>
 
 </manifest>
